@@ -8,6 +8,7 @@ body{
     background-image: linear-gradient(180deg ,#535e4b 50%,transparent 100%);
     color: rgb(239, 248, 248);
     background-repeat: no-repeat;
+      
 }
 nav { 
     background-color: rgba(83, 94, 75, 0.3);
@@ -59,7 +60,7 @@ footer p {
 }
 
 
-/* mycourses*/
+/*               mycourses                                          */
 
 
 
@@ -72,6 +73,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-attachment: fixed;
     min-height: 100vh;
+    
 
     
 }
@@ -150,7 +152,7 @@ tbody tr:hover{
     
     display: flex;
      justify-content: center;
-     align-items: center;
+     align-items:center ;
      margin: 20px auto;
      text-align: center;
      color: #171a15;
@@ -165,6 +167,9 @@ tbody tr:hover{
     text-align: center;
     border-radius: 20px;
     border: 4px solid rgb(10, 19, 5);
+    outline:none;
+    color: #171a15;
+    flex-grow: 1;
     
 }
 .input-group label{
@@ -189,6 +194,7 @@ tbody tr:hover{
     background-color: #3d4438;
     padding: 20px;
     box-shadow: 0 4px 8px rgba( 0, 0, 0, 0.1);
+    flex: wrap;
     
 }
 
@@ -199,13 +205,17 @@ textarea{
     margin: 3px 0;
     border-radius: 8px;
 }
-.Add-Your-Courses body{
+.ADD {
     display: flex;
+    flex: wrap;
+    height:100 vh;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    height: 100vh;
+     
     font-family: Arial, Helvetica, sans-serif;
-    min-height:100 vh;
+     
     margin: 0px;
     
 }
@@ -220,10 +230,56 @@ button{
     border-radius: 25px;
     font-size: 16px;
     transition: 0.3s;
+    cursor: pointer;
+    flex-grow: 1;
 }
 button:hover{
     background: #4c5844;
 }
+
+
+
+/* contact us*/
+
+
+.contact{
+    display: flex;
+    flex: wrap;
+    height:100 vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+     
+    font-family: Arial, Helvetica, sans-serif;
+     
+    margin: 0px;
+}
+
+
+
+.contacth1{
+    display: inline;
+    padding: 15PX 40PX;
+    border-radius: 12px 
+    box-sizing  border-box;
+    box-shadow:0 5px 15px #171a15;
+    background-color: #535e4b;
+    
+    display: flex;
+     justify-content: center;
+     align-items:center ;
+     margin: 20px auto;
+     text-align: center;
+     color: #171a15;
+
+
+
+
+
+}
+
+ 
 
 
 
