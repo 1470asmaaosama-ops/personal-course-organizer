@@ -293,6 +293,7 @@ button:hover{
         display: block;
         overflow-x: auto;
         overflow-y: auto;
+        height: 100%;
      }
 
     
