@@ -289,7 +289,12 @@ button:hover{
         margin: 5px 0;
         width: 100%;   
      }
-     
+     table{ 
+        display: block;
+        overflow-x: auto;
+        overflow-y: auto;
+     }
+
     
  }
 
