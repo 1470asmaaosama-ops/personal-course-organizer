@@ -290,9 +290,8 @@ button:hover{
         width: 100%;   
      }
      table{ 
-        display: block;
+      
         overflow-x: auto;
-        overflow-y: auto;
         width: 100%;
      }
 
